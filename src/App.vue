@@ -1,12 +1,12 @@
 <script>
   import AppTitle from './components/AppTitle.vue';
-  import Jumbotron from './components/Jumbotron.vue';
+  import AppHero from './components/AppHero.vue';
   import Footer from './components/Footer.vue';
   export default {
     name: 'App',
     components: {
       AppTitle,
-      Jumbotron,
+      AppHero,
       Footer
     },
     data(){
@@ -19,7 +19,7 @@
 
 <template>
   <AppTitle />
-  <Jumbotron />
+  <AppHero />
   <Footer />
 </template>
 

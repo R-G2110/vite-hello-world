@@ -23,7 +23,7 @@
   	z-index: 999;
   	width: 100%;
   	height: 70px;
-  	background-color: #FF6900;
+  	background-color: #2A5EE8;
 		color: white;
 	}
 </style>
