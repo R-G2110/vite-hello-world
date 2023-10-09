@@ -18,6 +18,7 @@
 
 <style scoped>
 	header {
+		padding: 20px 0;
 		text-align: center;
  		position: fixed;
   	z-index: 999;
