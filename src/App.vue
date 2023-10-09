@@ -1,16 +1,27 @@
 <script>
+  import Header from './components/Header.vue';
+  import Jumbotron from './components/Jumbotron.vue';
+  import Footer from './components/Footer.vue';
   export default {
     name: 'App',
+    components: {
+      Header,
+      Jumbotron,
+      Footer
+    },
     data(){
       return {
-
+        title: 'HELLO MOTO'
       }
     }
 }
 </script>
 
 <template>
-  <h1>HELLO MOTO</h1>
+  <Header />
+  <Jumbotron />
+  <h1>{{ title }}</h1>
+  <Footer />
 </template>
 
 
